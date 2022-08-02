@@ -1,0 +1,50 @@
+git status
+---------------------
+git status --short
+?? - Untracked files
+A - Files added to stage
+M - Modified files
+D - Deleted files
+---------------------------
+
+--To stage files--
+git add <filename>
+OR
+git add --all
+OR
+git add -A
+-----------------------------
+
+--To commit files--
+git commit -m "Type message here"
+
+git commit -a -m "Shorthand commit"
+
+--------give write permission to file path-----------
+sudo chmod -R 777 your_project_directory_location
+
+---------log of commits---------
+git log
+
+---------help-----------
+git <command> -help -------See all the available options for the specific command
+git help --all ------------See all possible commands
+
+---------create new branch----------
+
+git branch <branch name>
+
+git branch
+----------switch branches---------
+git checkout <branch name>
+
+----------merge branches------------
+go to a branch
+git merge <branch name>
+
+-----------delete branch-----------
+git branch -d <branch name>
+
+
+
+--------save to remote repository----------
